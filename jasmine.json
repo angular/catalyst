@@ -1,0 +1,15 @@
+{
+  "spec_dir": "dist",
+
+  "spec_files": [
+    "**/*_test.js"
+  ],
+  "jsloader": "import",
+
+  "env": {
+    "failSpecWithNoExpectations": false,
+    "stopSpecOnExpectationFailure": false,
+    "stopOnSpecFailure": false,
+    "random": false
+  }
+}

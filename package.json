@@ -1,0 +1,29 @@
+{
+  "name": "@angular/catalyst",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jasmine --config=jasmine.json"
+  },
+  "dependencies": {
+    "@angular/common": "13.3.3",
+    "@angular/core": "13.3.3",
+    "@angular/material": "13.3.3",
+    "@angular/platform-browser-dynamic": "13.3.3",
+    "@angular/upgrade": "13.3.3",
+    "angular": "1.8.3",
+    "angular-mocks": "1.8.3",
+    "jasmine": "3.4.0",
+    "rxjs": "6.6.7",
+    "zone.js": "0.11.5"
+  },
+  "devDependencies": {
+    "@types/angular": "1.8.4",
+    "@types/angular-mocks": "1.7.1",
+    "@types/jasmine": "3.10.6",
+    "typescript": "4.6.3"
+  }
+}
