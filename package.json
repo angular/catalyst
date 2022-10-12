@@ -9,6 +9,7 @@
     "test": "jasmine --config=jasmine.json"
   },
   "dependencies": {
+    "@angular/cdk": "14.2.0",
     "@angular/common": "13.3.3",
     "@angular/core": "13.3.3",
     "@angular/material": "13.3.3",
